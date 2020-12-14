@@ -66,7 +66,6 @@ namespace advent_of_code_2020_12
                     _position.Y += _wayPoint.Y * value;
                     break;
             }
-
         }
 
         static void RotateWayPointClockWise(int degrees) {
