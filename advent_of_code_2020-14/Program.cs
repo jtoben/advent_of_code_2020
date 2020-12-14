@@ -36,7 +36,7 @@ namespace advent_of_code_2020_14
 
                     valueInBits[i] = mask[i];
                 }
-                valuesByAddresses[address] = Convert.ToInt64(new String(valueInBits), 2);
+                valuesByAddresses[address] = Convert.ToInt64(new string(valueInBits), 2);
             }
 
             return valuesByAddresses.Select(x => x.Value).Sum();
