@@ -72,7 +72,7 @@ namespace advent_of_code_2020_14
                     var currentAddress = addressStrings.Pop();
 
                     if (!currentAddress.Contains('X')) {
-                        addressVariations.Add(Convert.ToInt64(new String(currentAddress), 2));
+                        addressVariations.Add(Convert.ToInt64(new string(currentAddress), 2));
                         continue;
                     }
 
