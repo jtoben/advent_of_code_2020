@@ -89,9 +89,7 @@ namespace advent_of_code_2020_16
 
             long sum = 1L;
             for (int i = 0; i < departureRules.Count; i++) {
-
                 var myTicketValues = myTicket.Split(',').Select(int.Parse).ToArray();
-
                 sum *= myTicketValues[departureIndexToRule[i]];
             }
 
