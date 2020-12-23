@@ -54,8 +54,8 @@ namespace advent_of_code_2020_19
             // So, this huuuuuge switch statement is basically checking for the above pattern,
             // based on the number of characters of the message.
 
-            var fourtyTwo = workedOutRules[42];
-            var thirtyOne = workedOutRules[31];
+            var fourtyTwo = workedOutRules[42].ToHashSet();
+            var thirtyOne = workedOutRules[31].ToHashSet();
 
             int validCount = 0;
             foreach (var message in messages) {
